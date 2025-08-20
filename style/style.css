@@ -39,7 +39,17 @@
     font-family: Work Sans;
     font-size: 40px;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#hero .hero-content .description {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
 }
