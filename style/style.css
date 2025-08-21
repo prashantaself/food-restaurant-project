@@ -15,6 +15,9 @@
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 1);
+    border: none;
 
 }
 
