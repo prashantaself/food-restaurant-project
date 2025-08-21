@@ -6,6 +6,18 @@
     padding: 0;
 }
 
+.btn {
+    padding: 14px 18px 14px 18px;
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
 #hero {
     background: linear-gradient(0deg,
             rgb(16, 16, 16) -19.5%,
@@ -46,11 +58,17 @@
 }
 
 #hero .hero-content .description {
+    opacity: 0, 7;
     color: rgb(255, 255, 255);
     font-family: Work Sans;
     font-size: 10px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0%;
+    text-align: center;
+}
+
+#hero .hero-content .description .button {
+    color: aqua;
     text-align: center;
 }
