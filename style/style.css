@@ -144,7 +144,14 @@
     background: rgba(82, 195, 3, 0.15);
 }
 
-#about-us .title {
+/* Section-About Us  */
+
+#about-us {
+    width: 1286px;
+    margin: 100px auto;
+}
+
+#about-us .conatiner .title {
     color: rgba(16, 16, 16, 1);
     font-family: Work Sans;
     font-size: 28px;
@@ -154,7 +161,7 @@
     text-align: center;
 }
 
-#about-us .subtitle {
+#about-us .conatiner .subtitle {
     color: rgba(16, 16, 16, 1);
     font-family: Work Sans;
     font-size: 14px;
@@ -163,4 +170,37 @@
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.6;
+}
+
+#about-us .conatiner .div-follow {
+    /* Frame 18 */
+    width: 884px;
+    height: 65px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 30px 10px 30px 10px;
+
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+#about-us .conatiner .div-follow p {
+    /* Follow Us On */
+    opacity: 0.7;
+    width: 207px;
+    height: 38px;
+
+    color: rgba(16, 16, 16, 1);
+
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
 }
