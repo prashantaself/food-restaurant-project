@@ -212,3 +212,7 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+#about-us .social-icon {
+    display: flex;
+}
