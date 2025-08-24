@@ -175,6 +175,8 @@
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
     opacity: 0.6;
 }
 
@@ -189,6 +191,7 @@
     align-items: center;
     gap: 10px;
     padding: 30px 10px 30px 10px;
+    margin-bottom: 32px;
 
     box-sizing: border-box;
     border-bottom: 1px solid rgba(16, 16, 16, 0.2);
