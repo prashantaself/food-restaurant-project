@@ -215,5 +215,6 @@
 
 #about-us .social-icon {
     display: flex;
-    border-radius: ;
+    border-radius: 23px;
+    background-color: rgb(233, 230, 235);
 }
