@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image with Text Overlay</title>
+  <style>
+    .image-container {
+      position: relative;       /* container relative হবে */
+      display: inline-block;
+      width: 400px;
+    }
+    .image-container img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .overlay-text {
+      position: absolute;       /* এখন এটা parent (relative) এর ভিতরে free move করবে */
+      top: 50%;                 /* vertical center */
+      left: 50%;                /* horizontal center */
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5); /* হালকা কালো background */
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    .overlay-button {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 8px 16px;
+      background: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <img src="https://picsum.photos/400/250" alt="Sample">
+    <div class="overlay-text">Hello Nanish 👋</div>
+    <button class="overlay-button">Click Me</button>
+  </div>
+
+</body>
+</html>
