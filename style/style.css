@@ -216,9 +216,9 @@
 }
 
 #about-us .social-icons a {
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
     display: inline;
     border-radius: 23px;
     background-color: rgb(233, 230, 235);
