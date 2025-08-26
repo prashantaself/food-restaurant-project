@@ -216,7 +216,12 @@
 
 #social {
     width: 1294px;
-    margin: 449px ;
+    margin: 449px;
+    position: relative;
+    /* container relative হবে */
+    display: inline-block;
+    /* width: 400px; */
+
 }
 
 #social .container {
@@ -224,6 +229,11 @@
     justify-content: space-between;
     align-items: center;
     background: rgba(255, 255, 255, 1);
+}
+
+#social .container .image-box {
+    width: 100%;
+    /* border-radius: 10px; */
 }
 
 #social .title {
