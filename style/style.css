@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 /* font-family: "Work Sans", sans-serif; */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
-/* Font Awesome CDN */
 
 * {
     margin: 0;
@@ -215,21 +213,67 @@
     margin-bottom: 30px;
 }
 
-#about-us .social-icons a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: inline;
-    border-radius: 23px;
-    background-color: rgb(233, 230, 235);
+ 
 
-    margin: 10px;
-    font-size: 30px;
-    text-decoration: none;
-    transition: 0.3s;
+#social .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
 }
 
-.social-icons a:hover {
-    color: #0077ff;
-    /* Hover effect */
+#social .title {
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#social .subtitle {
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    opacity: 0.6;
+}
+
+#social .div-follow {
+    width: 884px;
+    height: 65px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 10px 30px 10px;
+    margin-bottom: 32px;
+
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+#social .div-follow p {
+    opacity: 0.7;
+    width: 207px;
+    height: 38px;
+
+    color: rgba(16, 16, 16, 1);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
