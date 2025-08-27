@@ -217,6 +217,7 @@
 #social {
     width: 1294px;
     margin: 449px;
+    display: flex;
 
 }
 
