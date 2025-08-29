@@ -216,12 +216,13 @@
 
 #social {
     width: 1294px;
-    margin: 449px;
+    margin: 100px auto;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
- 
+
 
 #social .container {
     position: relative;
