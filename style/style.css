@@ -216,18 +216,19 @@
 
 #social {
     width: 1294px;
+    height: 449px;
     margin: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('/assets/social-bg.png');
+
 }
-
-
 
 #social .container {
     position: relative;
     display: inline-block;
-    background-image: url('/assets/social-bg.png');
+    
 }
 
 #social .title {
