@@ -147,6 +147,7 @@
 #about-us {
     width: 1286px;
     margin: 100px auto;
+    background-image: url(/assets/social-bg.png);
 }
 
 
@@ -197,7 +198,7 @@
     border-top: 1px solid rgba(16, 16, 16, 0.2);
 }
 
-#about-us .div-follow p {
+#about-us .div-follow p  {
     opacity: 0.7;
     width: 207px;
     height: 38px;
@@ -228,7 +229,7 @@
 #social .container {
     position: relative;
     display: inline-block;
-    
+
 }
 
 #social .title {
