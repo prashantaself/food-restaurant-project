@@ -223,9 +223,10 @@
 
  
 
-#social .container .image-box img {
+#social .container {
     position: relative;
     display: inline-block;
+    background-image: url('/assets/social-bg.png');
 }
 
 #social .title {
