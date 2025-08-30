@@ -215,7 +215,7 @@
 
 
 #social {
-    background-image: url('/assets/social-bg.png');
+    background-image: url('../assets/social-bg.png');
     width: 1294px;
     height: 449px;
     margin: 100px auto;
