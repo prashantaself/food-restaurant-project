@@ -29,9 +29,10 @@
 
 #hero {
     height: 615px;
-    background-image: linear-gradient(0deg,
+    /* background-image: linear-gradient(0deg,
             rgb(16, 16, 16) -19.5%,
-            rgba(16, 16, 16, 0) 100%), url('/assets/hero-bg.png');
+            rgba(16, 16, 16, 0) 100%), url('/assets/hero-bg.png'); */
+    background-image: url('/assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -39,6 +40,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    
 
 }
 
@@ -147,7 +149,7 @@
 #about-us {
     width: 1286px;
     margin: 100px auto;
-     
+
 }
 
 
@@ -198,7 +200,7 @@
     border-top: 1px solid rgba(16, 16, 16, 0.2);
 }
 
-#about-us .div-follow p  {
+#about-us .div-follow p {
     opacity: 0.7;
     width: 207px;
     height: 38px;
