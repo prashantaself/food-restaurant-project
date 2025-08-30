@@ -31,7 +31,7 @@
     height: 615px;
     background-image: linear-gradient(0deg,
             rgb(16, 16, 16) -19.5%,
-            rgba(16, 16, 16, 0) 100%), url('/food-restaurant-project/assets/hero-bg.png');
+            rgba(16, 16, 16, 0) 100%), url('food-restaurant-project/assets/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
