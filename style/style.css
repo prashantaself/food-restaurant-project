@@ -157,6 +157,7 @@
     background: rgba(255, 255, 255, 1);
 }
 
+
 #about-us .title {
     color: rgba(16, 16, 16, 1);
     font-family: Work Sans;
@@ -181,7 +182,7 @@
 }
 
 #about-us .div-follow {
-    width: 884px;
+    width: 684px;
     height: 65px;
 
     display: flex;
@@ -216,7 +217,7 @@
 
 #social {
     background-image: url('../assets/social-bg.png');
-    width: 1294px;
+    /* width: 1294px; */
     height: 449px;
     margin: 100px auto;
     display: flex;
@@ -255,7 +256,7 @@
 }
 
 #social .div-follow {
-    width: 884px;
+    /* width: 884px; */
     height: 65px;
 
     display: flex;
